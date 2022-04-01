@@ -1,25 +1,23 @@
-# DB Templates Using Liquibase
+数据库变更脚本模板（使用Liquibase）
+==================================
 
-[![MIT License](https://img.shields.io/github/license/Scott-Lau/liquibase-templates)][license]
+这是一个使用[Liquibase][liquibase]进行MySQL数据库脚本变更管理的模板工程。
 
-This is a template project for database scripts management using [Liquibase][liquibase].
+文档
+---
+NOTE: There is also [English version documentation][readme_en_US] of this project 。
 
-## Documentation
+待更新。。。
 
-This documentation is also available in Simplified Chinese [中文版链接][readme_zh_cn].
-
-To be continued...
-
-License
+协议
 -------
-The project is released under the MIT License. The [MIT license][license] is registered with and approved by the 
-[Open Source Initiative][osi].
+这个工程遵循MIT开源协议. [MIT开源协议][license]已在[Open Source Initiative][osi]注册并获得批准。
 
 
-[home]: https://github.com/soul-craft/liquibase-templates
+[home]: https://gitee.com/soulcraft/liquibase-db-templates
 [license]: https://opensource.org/licenses/MIT
 [osi]: https://opensource.org/
 [liquibase]: https://www.liquibase.org/
 [liquibase_doc]: https://docs.liquibase.com/
-[readme]: https://github.com/soul-craft/liquibase-templates/blob/master/README.md
-[readme_zh_cn]: https://github.com/soul-craft/liquibase-templates/blob/master/README_zh_cn.md
+[readme]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README.md
+[readme_en_US]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README_en_US.md

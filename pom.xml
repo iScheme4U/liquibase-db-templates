@@ -9,15 +9,15 @@
     <packaging>jar</packaging>
 
     <name>liquibase-templates</name>
-    <url>https://github.com/soul-craft/liquibase-templates</url>
+    <url>https://gitee.com/soulcraft/liquibase-db-templates</url>
     <scm>
-        <connection>scm:git:https://github.com/soul-craft/liquibase-templates.git</connection>
-        <url>https://github.com/soul-craft/liquibase-templates</url>
-        <tag>master</tag>
+        <connection>scm:git:https://gitee.com/soulcraft/liquibase-db-templates.git</connection>
+        <url>https://gitee.com/soulcraft/liquibase-db-templates</url>
+        <tag>main</tag>
     </scm>
     <contributors>
         <contributor>
-            <name>Scott Lau</name>
+            <name>Soul Craft</name>
         </contributor>
     </contributors>
 
