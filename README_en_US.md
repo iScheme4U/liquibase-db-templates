@@ -8,7 +8,7 @@ Documentation
 
 注意：本文档也有[中文版][readme]。
 
-To be continued...
+See [database scripts management roadmap][roadmap]
 
 License
 -------
@@ -24,3 +24,4 @@ The project is released under the MIT License. The [MIT license][license] is reg
 [liquibase_doc]: https://docs.liquibase.com/
 [readme]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README.md
 [readme_en_US]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README_en_US.md
+[roadmap]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/my_roadmap.md

@@ -7,7 +7,7 @@
 ---
 NOTE: There is also [English version documentation][readme_en_US] of this project 。
 
-待更新。。。
+参见：[我的数据库脚本版本管理之路][roadmap]
 
 协议
 -------
@@ -21,3 +21,4 @@ NOTE: There is also [English version documentation][readme_en_US] of this projec
 [liquibase_doc]: https://docs.liquibase.com/
 [readme]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README.md
 [readme_en_US]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/README_en_US.md
+[roadmap]: https://gitee.com/soulcraft/liquibase-db-templates/blob/main/my_roadmap.md
