@@ -1,8 +1,6 @@
 DB Templates scripts Using Liquibase
 ====================================
 
-[![MIT License](https://img.shields.io/github/license/Scott-Lau/liquibase-templates)][license]
-
 This is a template project for database scripts management using [Liquibase][liquibase].
 
 Documentation
