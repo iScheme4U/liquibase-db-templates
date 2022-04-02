@@ -131,7 +131,7 @@
 
 
 
-# 境量备份脚本
+# 增量备份脚本
 
 # 在执行增量脚本之前需要执行此脚本对数据库进行备份操作
 
@@ -153,7 +153,7 @@ source incremental_scripts/entry_scripts/20200325/backup_20200325.sh
 
 
 
-# 境量还原脚本
+# 增量还原脚本
 
 # 如果本次增量脚本有问题，则需要执行此脚本对数据库进行还原操作
 
@@ -213,7 +213,7 @@ use `demo`;
 
 
 
--- 境量建库脚本
+-- 增量建库脚本
 
 -- 每次新增增量脚本，需要将之前原有的增量脚本全部注释
 
@@ -327,7 +327,7 @@ source incremental_scripts/dml/20200325/class_info.sql;
 
 
 
-# 境量备份脚本
+# 增量备份脚本
 
 
 
@@ -365,7 +365,7 @@ source incremental_scripts/dml/20200218/inc_dml_20200218.sql;
 
 
 
-# 境量还原脚本
+# 增量还原脚本
 
 
 
@@ -381,7 +381,7 @@ mysql -h127.0.0.1 -udemo -pdemo@123 demo < class_info.sql
 
 
 
-# 境量备份脚本
+# 增量备份脚本
 
 
 
@@ -413,7 +413,7 @@ source incremental_scripts/dml/20200325/inc_dml_20200325.sql;
 
 
 
-# 境量还原脚本
+# 增量还原脚本
 
 
 
@@ -807,7 +807,7 @@ Liquibase 提供了许多管理数据库变更的方法：
 
 ### 更多思考
 
-诚如《持续集成》一书所说，数据库脚本的管理应该实现：
+数据库脚本的管理应该实现：
 
 1. 所有数据库脚本需要入库
 2. 数据库脚本变更操作应该由自动化脚本去执行，杜绝手工操作
@@ -821,4 +821,4 @@ Liquibase 提供了许多管理数据库变更的方法：
 
 1. [Why database migrations?](https://flywaydb.org/documentation/getstarted/why)
 2. [Introduction to Liquibase | Liquibase Docs](https://docs.liquibase.com/concepts/introduction-to-liquibase.html)
-3. 《持续集成》
+3. [《持续交付》](https://book.douban.com/subject/6862062/)
