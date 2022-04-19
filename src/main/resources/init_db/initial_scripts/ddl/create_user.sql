@@ -1,5 +1,5 @@
 select 'executing drop user liquibase' as log from dual;
-drop user 'liquibase'@'%';
+drop user if exists 'liquibase'@'%';
 
 -- Creates the user
 select 'executing create user liquibase' as log from dual;
