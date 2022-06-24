@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.soulcraft</groupId>
-    <artifactId>liquibase-templates</artifactId>
+    <artifactId>liquibase-db-templates</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>liquibase-templates</name>
+    <name>liquibase-db-templates</name>
     <url>https://gitee.com/soulcraft/liquibase-db-templates</url>
     <scm>
         <connection>scm:git:https://gitee.com/soulcraft/liquibase-db-templates.git</connection>
